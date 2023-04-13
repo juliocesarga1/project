@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    background-image: url(img/fundao.jpg);
+    background-repeat: repeat;
+}
+a{
+    text-decoration: none;
+    color: yellow;
+}
+.cabecalho{
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cadastros{
+    width: 300px;
+    height: 80px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Kanit', sans-serif;
+    font-size: large;
+    font-style: bold;
+}
+
+.scorpion{
+    display: flex;
+    justify-content: center;
+    height: 500px;
+}
+
+.form_cadastro{
+    text-decoration: none;
+    color: yellow;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+
+.form_cadastro input[type=text]{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #aaa;
+    padding: 5px;
+    width: 100%;
+    font-size: 25px;
+}
+
+.form_cadastro input[type=submit]{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: yellow;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+}
+.linha_de_cadastro{
+    margin-top: 5px;
+    margin-bottom: 15px;  
+}
+
+.form_cadastro select{
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: #aaa;
+    font-family: 'Kanit', sans-serif;
+    font-size: 25px;
+    width: 100%;
+}
